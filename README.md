@@ -1,7 +1,7 @@
 SinglePageApp v1.0
 =============
 
-<h1>轻量级单页APP框架</h1>
+  <h1>轻量级单页APP框架</h1>
         
       1.依赖库：zepto.js
       2.构建工具：grunt
@@ -13,6 +13,27 @@ SinglePageApp v1.0
       temp文件夹：存放临时文件
       template文件夹：存放模版文件
       app.config.js:配置文件
+ =====================================     
+      
+    模板配置
+      CONFIG.viewResource = [ 
+        {
+            view: 'view1',   //模版关键字（hash）
+            temp: 'template/view1.html' //资源位置
+        },
+        {
+            view: 'view2',
+            temp: 'template/view2.html'
+        }
+      ]
+
+    模块参数定义
+    CONFIG.module = {
+        moduleLoadAnimateTime: 0.1 //模块过度动画时间设置
+    }
+
+    初始化时默认启动页
+    CONFIG.initPage = 'view1';
       
 <h1>Lightweight Single Page Web App</h1>
 
