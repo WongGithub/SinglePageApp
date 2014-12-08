@@ -2,6 +2,8 @@ SinglePageApp v1.0
 =============
 
   <h1>轻量级单页APP框架</h1>
+  
+  演示地址：http://wonggithub.github.io/spa/
         
       1.依赖库：zepto.js
       2.构建工具：grunt
